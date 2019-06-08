@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity" android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nombres"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Apellidos"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Ocupación"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editText7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress" />
+
+    <RadioButton
+        android:text="Mujer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:id="@+id/radioButton"/>
+    <RadioButton
+        android:text="Hombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:id="@+id/radioButton2"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Ingresar"
+        android:text="Registrarme" />
+
+</LinearLayout>
